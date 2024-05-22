@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @SGKirito
-- 👀 I’m interested in code ai
-- 🌱 I’m currently learning python lava
+- 👀 I’m interested in discord bot
+- 🌱 I’m currently learning python and lava
 - 💞️ I’m looking to collaborate on Youtube
 - 📫 How to reach me Discord sgkirito
 <!---

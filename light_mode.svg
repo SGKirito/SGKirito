@@ -1,90 +1,72 @@
-<svg fill="none" viewBox="0 0 880 470" width="880" height="470" xmlns="http://www.w3.org/2000/svg">
-  <foreignObject width="100%" height="100%">
-    <div xmlns="http://www.w3.org/1999/xhtml">
-      <style>
-        .container {
-          background-color: #ffffff;
-          border: 1px solid #d0d7de;
-          border-radius: 10px;
-          padding: 24px;
-          font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
-          color: #24292f;
-          font-size: 13px;
-          line-height: 1.35;
-          display: flex;
-          box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-        }
-        .art {
-          color: #d70000;
-          white-space: pre;
-          margin-right: 32px;
-          font-weight: bold;
-        }
-        .info {
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          white-space: pre;
-        }
-        .header { color: #cf222e; font-weight: bold; }
-        .separator { color: #afb8c1; }
-        .key { color: #0969da; font-weight: bold; }
-        .val { color: #1f2328; }
-        .accent { color: #1a7f37; }
-        .dots { margin-top: 14px; }
-        .dot { display: inline-block; width: 14px; height: 14px; border-radius: 3px; margin-right: 6px; }
-      </style>
-
-      <div class="container">
-        <div class="art">
-         ,                      ,
-        /| ,.                ., |\
-       / |/  \              /  \| \
-      /  /    \  _      _  /    \  \
-     /  /     / ( \    / ) \     \  \
-    /  /     /   ) )  ( (   \     \  \
-   /  /     /   / (    ) \   \     \  \
-  (  (     (   (   \  /   )   )     )  )
-   \  \     \   \_/ \/ \_/   /     /  /
-    \  \     \_  / () () \  _/     /  /
-     \  \___   \/  ____   \/   ___/  /
-      \___  \  (  (    )  )  /  ___/
-          )  )  \  \  /  /  (  (
-         /  /    \  \/  /    \  \
-        /  /      \    /      \  \
-       (  (        )  (        )  )
-        \  \      / /\ \      /  /
-         \  \    / /  \ \    /  /
-          \  \  ( (    ) )  /  /
-           \  \  \ \  / /  /  /
-            \  \_ \ \/ / _/  /
-             \___) \  / (___/
-                    \/
-        </div>
-        <div class="info">
-          <span class="header">YOUR_USERNAME@github</span>
-          <span class="separator">------------------------</span>
-          <div><span class="key">OS:</span> <span class="val">Arch Linux / macOS</span></div>
-          <div><span class="key">Host:</span> <span class="val">GitHub.com</span></div>
-          <div><span class="key">Uptime:</span> <span class="val" id="uptime">2 years, 140 days</span></div>
-          <div><span class="key">Languages:</span> <span class="val">Python, Rust, TypeScript, C++</span></div>
-          <div><span class="key">Repositories:</span> <span class="val" id="repos">24</span></div>
-          <div><span class="key">Total Stars:</span> <span class="val" id="stars">142</span></div>
-          <div><span class="key">Total Commits:</span> <span class="val" id="commits">1,280</span></div>
-          <div><span class="key">Lines of Code:</span> <span class="accent" id="loc">245,190 ++</span></div>
-          
-          <div class="dots">
-            <span class="dot" style="background:#cf222e"></span>
-            <span class="dot" style="background:#bc4c00"></span>
-            <span class="dot" style="background:#9a6700"></span>
-            <span class="dot" style="background:#1a7f37"></span>
-            <span class="dot" style="background:#0969da"></span>
-            <span class="dot" style="background:#8250df"></span>
-            <span class="dot" style="background:#bf3989"></span>
-            <span class="dot" style="background:#57606a"></span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </foreignObject>
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" font-family="ConsolasFallback,Consolas,monospace" width="985px" height="530px" font-size="16px">
+<style>
+@font-face {
+src: local('Consolas'), local('Consolas Bold');
+font-family: 'ConsolasFallback';
+font-display: swap;
+-webkit-size-adjust: 109%;
+size-adjust: 109%;
+}
+.ascii {fill: #cf222e;}
+.key {fill: #953800;}
+.value {fill: #0a3069;}
+.addColor {fill: #1a7f37;}
+.delColor {fill: #cf222e;}
+.cc {fill: #c2cfde;}
+text, tspan {white-space: pre;}
+</style>
+<rect width="985px" height="530px" fill="#f6f8fa" rx="15"/>
+<text x="15" y="30" class="ascii">
+<tspan x="15" y="30">                                               </tspan>
+<tspan x="15" y="50">       __m[,                        _m@__      </tspan>
+<tspan x="15" y="70">     ;   oB  _                    ,  @_  ',    </tspan>
+<tspan x="15" y="90">   ,"   T  ._`0,               '_P _  .P   ^   </tspan>
+<tspan x="15" y="110">   ;'   j 'S [|@gBB*        @B@@@ g "  1   ],  </tspan>
+<tspan x="15" y="130">  *F   -|   @@@@`@@@@g,  gg@@@W`@@@;}  @o   t  </tspan>
+<tspan x="15" y="150">  @v   \   .8@@   ""  " '" T""  |@@;.  ,/   ta </tspan>
+<tspan x="15" y="170">  @     '.   @@@g__          __@@@D   o      @ </tspan>
+<tspan x="15" y="190">  "      ,=4q_'4@@@@@r __g@@@@@@P _mP\,      [ </tspan>
+<tspan x="15" y="210">   ,     @    "o._',o@@@@@@P" _.="    8      | </tspan>
+<tspan x="15" y="230">  @@      0,      g@@@@P'_g@@L      _P      @] </tspan>
+<tspan x="15" y="250">   '\      'q     @@@@   |@@@@    _@       {   </tspan>
+<tspan x="15" y="270">     L@      `q   %@@@L  g@@@F  _D      ,@/    </tspan>
+<tspan x="15" y="290">       '_b ;    o  '@" g@@@P  ,P    ! g, '     </tspan>
+<tspan x="15" y="310">         "'_B,'L \   g@@B"_  ,/ / .@y '        </tspan>
+<tspan x="15" y="330">            0 ',\ t @@D  @@g F '|  F           </tspan>
+<tspan x="15" y="350">                 l| @@,  g@f _    |            </tspan>
+<tspan x="15" y="370">                  F  +"_@@F  @                 </tspan>
+<tspan x="15" y="390">                 ; _gB&gt;' &lt;@_                   </tspan>
+<tspan x="15" y="410">                  @'        \a                 </tspan>
+<tspan x="15" y="430">                ,           \@-/               </tspan>
+<tspan x="15" y="450">                ~  "       .   "               </tspan>
+<tspan x="15" y="470">                `   \                          </tspan>
+<tspan x="15" y="490">                     :                         </tspan>
+<tspan x="15" y="510">                                               </tspan>
+</text>
+<text x="410" y="30" fill="#24292f">
+<tspan x="410" y="30">kirito@SGKirito</tspan> -————————————————————————————————————————-—-
+<tspan x="410" y="50" class="cc">. </tspan><tspan class="key">OS</tspan>:<tspan class="cc"> ........................ </tspan><tspan class="value">Windows 11, Linux, Android</tspan>
+<tspan x="410" y="70" class="cc">. </tspan><tspan class="key">Uptime</tspan>:<tspan class="cc" id="age_data_dots"> ...................... </tspan><tspan class="value" id="age_data">20 years, 5 months, 12 days</tspan>
+<tspan x="410" y="90" class="cc">. </tspan><tspan class="key">Host</tspan>:<tspan class="cc"> ............................. </tspan><tspan class="value">SGKirito HQ</tspan>
+<tspan x="410" y="110" class="cc">. </tspan><tspan class="key">Kernel</tspan>:<tspan class="cc"> ........................... </tspan><tspan class="value">Software Developer &amp; Creator</tspan>
+<tspan x="410" y="130" class="cc">. </tspan><tspan class="key">IDE</tspan>:<tspan class="cc"> ........................ </tspan><tspan class="value">VSCode, IntelliJ IDEA, Neovim</tspan>
+<tspan x="410" y="150" class="cc">. </tspan>
+<tspan x="410" y="170" class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Programming</tspan>:<tspan class="cc"> ..... </tspan><tspan class="value">Python, JavaScript, TypeScript, C++</tspan>
+<tspan x="410" y="190" class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Computer</tspan>:<tspan class="cc"> ......... </tspan><tspan class="value">HTML, CSS, JSON, Markdown, YAML</tspan>
+<tspan x="410" y="210" class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Real</tspan>:<tspan class="cc"> ......................... </tspan><tspan class="value">English</tspan>
+<tspan x="410" y="230" class="cc">. </tspan>
+<tspan x="410" y="250" class="cc">. </tspan><tspan class="key">Hobbies</tspan>.<tspan class="key">Software</tspan>:<tspan class="cc"> ...... </tspan><tspan class="value">Discord Bots, Game Dev, Open Source</tspan>
+<tspan x="410" y="270" class="cc">. </tspan><tspan class="key">Hobbies</tspan>.<tspan class="key">Other</tspan>:<tspan class="cc"> ............. </tspan><tspan class="value">Gaming, Anime, Tech Tweaking</tspan>
+<tspan x="410" y="310">- Contact</tspan> -——————————————————————————————————————————————-—-
+<tspan x="410" y="330" class="cc">. </tspan><tspan class="key">Email</tspan>:<tspan class="cc"> ............................. </tspan><tspan class="value">contact@sgkirito.dev</tspan>
+<tspan x="410" y="350" class="cc">. </tspan><tspan class="key">GitHub</tspan>:<tspan class="cc"> ............................ </tspan><tspan class="value">SGKirito</tspan>
+<tspan x="410" y="370" class="cc">. </tspan><tspan class="key">Discord</tspan>:<tspan class="cc"> ........................... </tspan><tspan class="value">sgkirito</tspan>
+<tspan x="410" y="390" class="cc">. </tspan><tspan class="key">Twitch</tspan>:<tspan class="cc"> ............................ </tspan><tspan class="value">SGKirito</tspan>
+<tspan x="410" y="410" class="cc">. </tspan><tspan class="key">Status</tspan>:<tspan class="cc"> ............................ </tspan><tspan class="value">Building cool stuff ⚡</tspan>
+<tspan x="410" y="450">- GitHub Stats</tspan> -—————————————————————————————————————————-—-
+<tspan x="410" y="470" class="cc">. </tspan><tspan class="key">Repos</tspan>:<tspan class="cc" id="repo_data_dots"> .... </tspan><tspan class="value" id="repo_data">12</tspan> {<tspan class="key">Contributed</tspan>: <tspan class="value" id="contrib_data">25</tspan>} | <tspan class="key">Stars</tspan>:<tspan class="cc" id="star_data_dots"> ............ </tspan><tspan class="value" id="star_data">85</tspan>
+<tspan x="410" y="490" class="cc">. </tspan><tspan class="key">Commits</tspan>:<tspan class="cc" id="commit_data_dots"> ................... </tspan><tspan class="value" id="commit_data">512</tspan> | <tspan class="key">Followers</tspan>:<tspan class="cc" id="follower_data_dots"> ........ </tspan><tspan class="value" id="follower_data">42</tspan>
+<tspan x="410" y="510" class="cc">. </tspan><tspan class="key">Lines of Code on GitHub</tspan>:<tspan class="cc" id="loc_data_dots">. </tspan><tspan class="value" id="loc_data">128,450</tspan> ( <tspan class="addColor" id="loc_add">142,300</tspan><tspan class="addColor">++</tspan>, <tspan id="loc_del_dots"> </tspan><tspan class="delColor" id="loc_del">13,850</tspan><tspan class="delColor">--</tspan> )
+</text>
 </svg>
